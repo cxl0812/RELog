@@ -23,27 +23,6 @@ bert_config = BertConfig.from_pretrained(UNCASED+'bert-base-uncased-config.json'
 bert: BertModel = AutoModelForMaskedLM.from_pretrained(UNCASED+'bert-base-uncased-pytorch_model.bin', config=bert_config, local_files_only=True)
 
 
-# path = 'save_model/test' 
-# bert_tokenizer:BertTokenizer = BertTokenizer.from_pretrained(path, local_files_only=True)
-# bert: BertModel = AutoModelForMaskedLM.from_pretrained(path, local_files_only=True)
-# bert_config = BertConfig.from_pretrained(path, local_files_only=True)
-
-# # 导出templates -- utils/generate_finetune_data
-# df = pd.read_csv('../data/templates/BGL.log_templates.csv')
-# with open("../data/templates/BGL_finetune_input.txt", 'w') as f:
-#     for i in df.itertuples():
-#         f.write(i.EventTemplate + '\n')
-
-def addToken():
-    # 添加词库
-    with open("../data/templates/BGL_finetune_input.txt") as f:
-        templates_data = f.readlines()
-    templates_vocab = [j for i in templates_data for j in i.split()]
-    added_tk_num = bert_tokenizer.add_tokens(templates_vocab)
-    print("added: ", added_tk_num)
-    print("len of bert tokenizer: ", len(bert_tokenizer))
-    bert.resize_token_embeddings(len(bert_tokenizer), pad_to_multiple_of=None)
-
 class CustomCallback(TrainerCallback):
     def __init__(self, log_dir):
         self.log_dir = log_dir
