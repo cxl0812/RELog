@@ -5,3 +5,5 @@ After these files are ready, run these script to generate dataset for training a
 cd {project}/model
 python utils/generate_HDFS_seq.py
 ``` 
+
+Here we have uploaded the dataset to the cloud storage, link: https://pan.baidu.com/s/1kwEQz1rKUYaOKMIV8mu1ZA?pwd=auhz 
