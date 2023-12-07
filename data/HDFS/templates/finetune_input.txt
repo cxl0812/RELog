@@ -1,0 +1,1348 @@
+<*> failures on node minint-<*>
+added <*> to list of failed maps
+added filter am _ proxy _ filter (class=org.apache.hadoop.yarn.server.webproxy.amfilter. am ip filter) to context mapreduce
+added filter am _ proxy _ filter (class=org.apache.hadoop.yarn.server.webproxy.amfilter. am ip filter) to context static
+added global filter 'safety' (class=org.apache.hadoop.http. http server 2$ quoting input filter)
+adding #<*> tokens and #<*> secret keys for nm use for launching container
+adding job token for <*> to job token secret manager
+adding path spec: <*>
+adding protocol org.apache.hadoop.mapreduce.v 2.api.mr client protocol pb to the server
+address change detected.  old: <*>  new: <*>
+after  scheduling:  pending reds:<*>  scheduled maps:<*>  scheduled reds:<*>  assigned maps:<*>  assigned reds:<*>  completed maps:<*>  completed reds:<*>  cont alloc:<*>  cont rel:<*>  host local:<*>  rack local:<*>
+all maps assigned.  ramping up all remaining reduces:<*>
+assigned container <*> to <*>
+<*>  task attempt  transitioned from assigned to running
+<*>  task attempt  transitioned from fail _ container _ cleanup to fail _ task _ cleanup
+<*>  task attempt  transitioned from fail _ task _ cleanup to failed
+<*>  task attempt  transitioned from new to unassigned
+<*>  task attempt  transitioned from running to fail _ container _ cleanup
+<*>  task attempt  transitioned from running to success _ container _ cleanup
+<*>  task attempt  transitioned from success _ container _ cleanup to succeeded
+<*>  task attempt  transitioned from unassigned to assigned
+attempt _ start <*>
+auth successful for <*> (auth:simple)
+before  scheduling:  pending reds:<*>  scheduled maps:<*>  scheduled reds:<*>  assigned maps:<*>  assigned reds:<*>  completed maps:<*>  completed reds:<*>  cont alloc:<*>  cont rel:<*>  host local:<*>  rack local:<*>
+blacklist disable percent is <*>
+cannot assign container  container: [ container id: <*>,  node id: <*>,  node http address: <*>,  resource: <memory:<*>, v cores:<*>,  priority: <*>,  token:  token { kind:  container token, service: <*> }, ] for a map as either container memory less than required <memory:<*>, v cores:<*> or no pending map tasks - maps.is empty=<*>
+connecting to  resource manager at <*>
+container complete event for unknown container id <*>
+created mr app master for application <*>
+data streamer  exception
+default file system [<*>]
+default speculator.add speculative attempt -- we are speculating <*>
+dfs output stream  response processor exception for block bp-<*>
+diagnostics report from <*>:  container killed by the  application master.
+diagnostics report from <*>:  error: java.net. no route to host exception:  no  route to  host from minint-<*> to <*> failed on socket timeout exception: java.net. no route to host exception:  no route to host: no further information;  for more details see: http://wiki.apache.org/hadoop/ no route to host
+done acknowledgement from <*>
+emitting job history data to the timeline server is not enabled
+error in contacting rm.
+error  recovery for block bp-<*> in pipeline <*>, <*>: bad datanode <*>
+error writing  history  event: org.apache.hadoop.mapreduce.jobhistory. task attempt unsuccessful completion event@<*>
+event  writer setup for  job id: <*>,  file: <*>
+executing with tokens:
+extract jar:file:<*> to <*>
+failed to renew lease for [<*>] for <*> seconds.  will retry shortly ...
+get resources() for <*>: ask=<*> release= <*> new containers=<*> finished containers=<*> resourcelimit=<memory:<*>, v cores:<*> known n ms=<*>
+got allocated containers <*>
+http request log for http.requests.mapreduce is not defined
+input size for job <*> = <*>.  number of splits = <*>
+instantiated mr client service at minint-<*>
+ipc  server listener on <*>: starting
+ipc  server  responder: starting
+jetty bound to port <*>
+jetty-<*>
+<*>  transitioned from inited to setup
+<*>  transitioned from new to inited
+<*>  transitioned from setup to running
+job _ create <*>
+jvm with id : <*> asked for a task
+jvm with id: <*> given task: <*>
+killing <*>
+kind: yarn _ am _ rm _ token,  service: ,  ident: (app attempt id { application _ id { id: <*> cluster _ timestamp: <*> } attempt id: <*> } key id: <*>)
+launching <*>
+loaded properties from hadoop-metrics2.properties
+logging to <*>(org.mortbay.log) via <*>
+map resource request:<memory:<*>, v cores:<*>
+max container capability: <memory:<*>, v cores:<*>>
+max task failures per node is <*>
+mr app master launching normal, non-uberized, multi-container job <*>.
+mr app master metrics system started
+node blacklisting enabled:<*>
+not uberizing <*> because: not enabled; too many maps; too much input;
+num completed  tasks: <*>
+number of reduces for job <*> = <*>
+opening proxy : <*>
+output committer is org.apache.hadoop.mapreduce.lib.output. file output committer
+output committer set in config <*>
+processing the event  event type: <*> for container <*> task attempt <*>
+processing the event  event type: job _ setup
+processing the event  event type: task _ abort
+progress of  task attempt <*> is : <*>
+putting shuffle token in service data
+queue: default
+recalculating schedule, headroom=<memory:<*>, v cores:<*>
+received completed container <*>
+reduce slow start threshold not met. completed maps for reduce slowstart <*>
+reduce slow start threshold reached.  scheduling reduces.
+reduce resource request:<memory:<*>, v cores:<*>
+registered webapp guice modules
+registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>
+resolved <*> to <*>
+retrying connect to server: <*>.  already tried <*> time(s); retry policy is  retry up to maximum count with fixed sleep(max retries=<*>, sleep time=<*> milliseconds)
+scheduled snapshot period at <*> second(s).
+scheduling a redundant attempt for task <*>
+shuffle port returned by  container manager for <*> : <*>
+size of containertokens _ dob is <*>
+slow  read processor read fields took <*> (threshold=<*>); ack: seqno: <*> status: success status: error downstream ack time nanos: <*>, targets: [<*>, <*>]
+started  http server 2$ select channel connector with safe startup@<*>
+starting  socket  reader #<*> for port <*>
+task cleanup failed for attempt <*>
+task succeeded with attempt <*>
+task: <*> - exited : java.net. no route to host exception:  no  route to  host from minint-<*> to <*> failed on socket timeout exception: java.net. no route to host exception:  no route to host: no further information;  for more details see: http://wiki.apache.org/hadoop/ no route to host
+<*>  task  transitioned from new to scheduled
+<*>  task  transitioned from running to succeeded
+<*>  task  transitioned from scheduled to running
+task attempt: [<*>] using container id: [<*> on nm: [<*>]
+the job-conf file on the remote fs is <*>
+the job-jar file on the remote fs is <*>
+thread  thread[event handling thread,<*>,main] threw an  exception.
+upper limit on the thread pool size is <*>
+using callqueue class java.util.concurrent.linkedblockingqueue
+using mapred newapicommitter.
+we launched <*> speculations.  sleeping <*> milliseconds.
+web app <*> started at <*>
+yarn.client.max-cached-nodemanagers-proxies : <*>
+accepted password for <*> from <*> port <*> ssh 2
+connection closed by <*> [preauth]
+did not receive identification string from <*>
+disconnecting:  too many authentication failures for <*> [preauth]
+error:  received disconnect from <*>: <*>: com.jcraft.jsch.j sch exception:  auth fail [preauth]
+error:  received disconnect from <*>: <*>:  no more user authentication methods available. [preauth]
+failed none for invalid user <*> from <*> port <*> ssh 2
+failed password for <*> from <*> port <*> ssh 2
+failed password for invalid user <*> from <*> port <*> ssh 2
+fatal:  write failed:  connection reset by peer [preauth]
+input_userauth_request: invalid user <*> [preauth]
+invalid user <*> from <*>
+message repeated <*> times: [  failed password for <*> from <*> port <*>]
+pam <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>
+pam <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>
+pam <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
+pam service(sshd) ignoring max retries; <*> > <*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>
+pam_unix(sshd:auth): check pass; user unknown
+pam_unix(sshd:session): session closed for user <*>
+pam_unix(sshd:session): session opened for user <*> by (uid=<*>)
+received disconnect from <*>: <*>:  bye  bye [preauth]
+received disconnect from <*>: <*>:  closed due to user request. [preauth]
+received disconnect from <*>: <*>: disconnected by user
+reverse mapping checking getaddrinfo for <*> [<*>] failed - possible break-in attempt!
+alarm upload statics to db total steps=<*>  calories:<*>  floor:<*>  distance:<*>
+bulk save detail hi health data() size = <*>,total time = <*>
+calculate altitude with cache total altitude=<*>
+calculate calories with cache total calories=<*>
+check current day a new day comes , reset basic sync condition, current day is <*> old day is <*>
+check first sync by type no such data in db ,type is <*> device code is <*>
+check insert status step stat sum or calorie stat sum is enough
+check insert status step sum or calorie sum is enough
+clear()
+close notification...
+delete health notification()
+flush sensor data
+flush 2 db result success
+flush temp cache to db by stand
+get app context() is app valid health or wear, package name = <*>
+get binder package name package name = com.huawei.health
+get diff total steps= <*>##<*>
+get step counter status
+get step counter status= <*>
+get today basic standard steps= <*>##<*>##<*>
+get today sport data m steps record manager=<*>
+get today total detail steps = <*>##<*>##<*>##<*>##<*>##<*>
+if can sync not! no cloud version
+init data privacy the data privacy is <*>
+init data privacy the data privacy switch is open, start push health data!
+init enviroument
+init user privacy the user privacy is <*>
+init user privacy the user privacy switch is open, start push user data!
+insert call back() on success type = <*> data=<*>
+insert event success begin:<*> end:<*>
+insert hi health data() bulk save detail hi health data fail error code = <*>,error message = err _ data _ insert
+insert hi health data() check app type <*> app id = <*>
+insert hi health data() end total time = <*>
+insert hi health data() size = <*>,app = <*>, one  data  type = <*>,package name = <*>,write stat type = <*>
+is screen on <*>
+need auto sync auto sync switch is open
+new date =<*>, type=<*>,<*>,old=<*>
+next day:<*>
+on extend:<*> <*> <*> <*>
+on receive action: android.intent.action.screen _ off
+on receive action: android.intent.action.screen _ on
+on stand step changed <*>
+process handle broadcast action action:android.intent.action.screen _ on
+process handle broadcast action action:android.intent.action.time _ tick
+registersensorsuccess: <*>
+reload : <*> restar <*>
+report : <*> <*> <*> <*>
+re start step counter
+save health detail data() device id = <*>,client id=<*>,id=<*>
+save health detail data() save one detail data fail hi health data = <*>,type = <*>
+save real time health datas stat() size = <*>,total time = <*>
+save stat data() type =<*>,time = <*>,stat client = <*>,who is <*>
+screen status unknown,think screen on
+send sync failed broadcast
+set basic standard steps basic standard step=<*> restart steps=<*>
+set diff total steps=<*>
+set goal notifi shown record <*> <*>
+set today total detail steps=<*>
+set write db last data minute success
+set write db last data minute=<*>
+start insert sport sync first <*> steps sync,do all sync
+start insert sport sync start auto sync,app is <*>
+start listener change subscribe list = [<*>]
+start sync hi sync option =  hi sync option{sync action=<*>, sync method=<*>, sync scope=<*>, sync data type=<*>, sync model=<*>, push action=<*>},app = <*> who = <*>
+start timer start auto sync
+step sync or not app syn times is <*>
+step sync or not app syn times is <*>, statsync times is <*>
+the day changed <*>
+time stamp back,extend report time stamp=<*>
+try to record as basic step data b write <*>
+<*>|<*>|<*>|<*>
+up load one minute data to engine time=<*>,<*>,<*>,<*>,<*>
+upload statics to db failed message=<*>
+upload statics to db() on result type = <*> obj=<*>
+write data to db size <*>
+<*> open through proxy <*> socks 5
+<*> open through proxy <*> https
+<*> error :  could not connect to proxy <*> -  could not resolve <*> error <*>
+<*> error :  could not connect to proxy <*> - connection attempt failed with error <*>
+<*> error :  could not connect through proxy <*> -  proxy server cannot establish a connection with the target, status code <*>
+<*> error :  could not connect through proxy <*> -  proxy closed the connection unexpectedly.
+<*> error : a connection request was canceled before the completion.
+<*> close, <*> sent, <*> received, lifetime <*>
+<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds
+<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>
+<*> double-hummer alignment exceptions
+<*> floating point alignment exceptions
+<*> l 3 edram error(s) (dcr <*>) detected and corrected
+<*> l 3 edram error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.
+<*> torus receiver x+ input pipe error(s) (dcr <*>) detected and corrected
+<*> torus receiver y+ input pipe error(s) (dcr <*>) detected and corrected
+<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected
+<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
+<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds
+auxiliary processor.........................<*>
+byte ordering exception.....................<*>
+can not get assembly information for node card
+ce sym <*>, at <*>, mask <*>
+ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>
+ciod:  error creating node map from file <*>:  bad file descriptor
+ciod:  error creating node map from file <*>:  block device required
+ciod:  error creating node map from file <*>:  no child processes
+ciod:  error creating node map from file <*>:  permission denied
+ciod:  error loading <*>: invalid or missing program image,  exec format error
+ciod:  error loading <*>: invalid or missing program image,  permission denied
+ciod:  error loading <*>: program image too big, <*> > <*>
+ciod:  error loading <*>: invalid or missing program image,  no such file or directory
+ciod:  error reading message prefix after load _ message on  cio stream socket to <*>:  link has been severed
+ciod:  error reading message prefix on  cio stream socket to <*>,  connection reset by peer
+ciod:  error reading message prefix on  cio stream socket to <*>,  connection timed out
+ciod:  error reading message prefix on  cio stream socket to <*>,  link has been severed
+ciod: failed to read message prefix on control stream ( cio stream socket to <*>
+ciod: generated <*> core files for program <*>
+ciod:  in packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*> <*> <*> <*>)
+ciod: login chdir(<*>) failed:  input/output error
+ciod: login chdir(<*>) failed:  no such file or directory
+ciod:  message code <*> is not <*> or <*>
+ciod:  missing or invalid fields on line <*> of node map file <*>
+ciod: poll control descriptors:  detected the debugger died.
+ciod:  received signal <*>, code=<*>, errno=<*>, address=<*>
+ciod: z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>
+core configuration register: <*>
+critical input interrupt (unit=<*> bit=<*>): warning for torus y+ wire
+critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire
+critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type
+critical input interrupt (unit=<*> bit=<*>): warning for tree c 1 wire, suppressing further interrupts of same type
+critical input interrupt enable...<*>
+data address space................<*>
+data address: <*>
+data cache search parity error detected. attempting to correct
+data storage interrupt
+data store interrupt caused by dcbf.........<*>
+data store interrupt caused by icbi.........<*>
+data tlb error interrupt
+dbcr0=<*> dbsr=<*> ccr0=<*>
+debug interrupt enable............<*>
+debug wait enable.................<*>
+disable store gathering..................<*>
+error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) psr 0=<*> psr 1=<*> prxf=<*> pixf=<*>
+exception syndrome register: <*>
+floating point instr. enabled.....<*>
+floating pt ex mode <*> enable......<*>
+force load/store alignment...............<*>
+fpr29=<*>
+fraction rounded.........................<*>
+generating core.<*>
+guaranteed data cache block touch........<*>
+guaranteed instruction cache block touch.<*>
+iar <*> dear <*>
+icache prefetch depth....................<*>
+icache prefetch threshold................<*>
+ido chip status changed: <*> ip=<*> v=<*> t=<*> status=m <*>
+idoproxydb hit assert condition: assert expression=<*>  source file=idotransportmgr.cpp  source line=<*>  function=int  ido transport mgr:: send packet( ido udp mgr*,  bgl ctl pav trace*)
+instruction address space.........<*>
+instruction address: <*>
+instruction cache parity error corrected
+kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>
+lr:<*> cr:<*> xer:<*> ctr:<*>
+lustre mount failed : <*> : block _ id : location
+lustre mount failed : <*> : point <*>
+machine check dcr read timeout (mc=<*> iar <*> lr <*>)
+machine check enable..............<*>
+machine check: i-fetch......................<*>
+machine state register: <*>
+machine  state  register: <*>
+minus normalized number..................<*>
+new ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>
+nfs  mount failed on <*>, slept <*> seconds, retrying (<*>)
+node card is not fully functional
+node card status: alert <*>, alert <*>, alert <*>, alert <*> is (are) active.  clock  mode is  low.  clock  select is  midplane.  phy jtag  reset is asserted. asic jtag  reset is not asserted.  temperature  mask is not active.  no temperature error.  temperature  limit  error  latch is clear. pgood is asserted. pgood error latch is clear. mpgood is ok. mpgood error latch is clear.  the <*> volt rail is ok.  the <*> volt rail is ok.
+node card status: no aler ts are active.  clock  mode is  low.  clock  select is  midplane.  phy jtag  reset is asserted. asic jtag  reset is asserted.  temperature  mask is not active.  no temperature error.  temperature  limit  error  latch is clear. pgood is not asserted. pgood error latch is active. mpgood is not ok. mpgood error latch is active.  the <*> volt rail is ok.  the <*> volt rail is ok.
+node card vpd check: <*> node in processor card slot <*> do not match. vpd ecid <*>, found <*>
+node card is not fully functional
+prepare for service shutting down  node card(m lctn(<*>), m card sernum(<*>), m lp(<*>), m ip(<*>), m type(<*>)) as part of  service  action <*>
+prepare for service shutting down  node card(m lctn(<*>), m card sernum(<*>), m lp(<*>), m ip(<*>), m type(<*>)) as part of  service  action <*>
+problem state (<*>=sup,<*>=usr).......<*>
+program interrupt
+program interrupt: fp cr field .............<*>
+program interrupt: fp cr update.............<*>
+program interrupt: illegal instruction......<*>
+program interrupt: imprecise exception......<*>
+program interrupt: privileged instruction...<*>
+program interrupt: trap instruction.........<*>
+program interrupt: unimplemented operation..<*>
+r24=<*> r25=<*> r26=<*> r27=<*>
+rts internal error
+rts panic! - stopping execution
+rts tree/torus link training failed: wanted: <*> got: <*>
+rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) psr 0=<*> psr 1=<*> prxf=<*> pixf=<*>
+rts: kernel terminated for reason <*>
+rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>
+shutdown complete
+size of scratchpad portion of l 3.........<*> (<*>)
+special purpose registers:
+store operation.............................<*>
+suppressing further interrupts of same type
+total of <*> ddr error(s) detected and corrected
+total of <*> ddr error(s) detected and corrected over <*> seconds
+wait state enable.................<*>
+******* goodbye <*>:<*> ********
+accepted socket connection from <*>:<*>
+autopurge.purge interval set to <*>
+autopurge.snap retain count set to <*>
+cannot open channel to <*> at election address <*>:<*>
+caught end of stream exception
+client attempting to establish new session at <*>:<*>
+client attempting to renew session <*> at <*>:<*>
+closed socket connection for client <*>:<*> (no session established for client)
+closed socket connection for client <*>:<*> which had sessionid <*>
+connection broken for id <*>, my id = <*>, error =
+connection request from old client <*>:<*>; will be dropped if server is in r-o mode
+established session <*> with negotiated timeout <*> for client <*>:<*>
+exception causing close of session <*> due to java.io.io exception:  zoo keeper server not running
+expiring session <*>, timeout of <*> exceeded
+first is <*>
+follower sid: <*> : info : org.apache.zookeeper.server.quorum. quorum peer$ quorum server@<*>
+following
+following - leader election took - <*>
+getting a snapshot from leader
+got user-level  keeper exception when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*>  error  path:<*>  error: keeper error code =  node exists for <*>
+have quorum of supporters; starting up and setting last processed zxid: <*>
+have smaller server identifier, so dropping the connection: (<*>, <*>)
+interrupted while waiting for message on queue
+interrupting  send worker
+looking
+max session timeout set to <*>
+min session timeout set to <*>
+my election bind port: <*>/<*>:<*>
+new election.  my id = <*>, proposed zxid=<*>
+notification time out: <*>
+notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), following (n.state), <*> (n.sid), <*> (n.peer e poch), following (my state)
+notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), following (n.state), <*> (n.sid), <*> (n.peer e poch), leading (my state)
+notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), leading (n.state), <*> (n.sid), <*> (n.peer e poch), looking (my state)
+notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), looking (n.state), <*> (n.sid), <*> (n.peer e poch), following (my state)
+notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), looking (n.state), <*> (n.sid), <*> (n.peer e poch), leading (my state)
+notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), looking (n.state), <*> (n.sid), <*> (n.peer e poch), looking (my state)
+processed session termination for sessionid: <*>
+reading snapshot <*>
+received connection request <*>:<*>
+revalidating client: <*>
+send worker leaving thread
+sending diff
+server environment:<*>
+shutdown of request processor complete
+snapshotting: <*> to <*>
+starting quorum peer
+tick time set to <*>
+unexpected exception causing shutdown while sock still open
+unexpected  exception:
+(c) <*>-<*>  netfilter core team
+(<*>) cmd (<*> <*>)
+(<*>) cmd (run-parts <*>)
+(supports <*>)
+... autorun done.
+[ib _ sm _ sweep.c:<*>]:  no topology change
+[ib _ sm _ sweep.c:<*>]:  no configuration change required
+[ib _ sm _ sweep.c:<*>]: ********************** new sweep ********************
+<*> ( release  date: <*> <*>)
+<*> (v 001 dell pe bkc <*> msft <*>) @ <*>
+<*> <*> <*> ak  exp $
+<*> aux port at <*>,<*> irq <*>
+<*> kbd port at <*>,<*> irq <*>
+<*>-ioctl (<*>) initialised: <*>
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost
+<*>: to=<*>, ctladdr=<*> ( 0/ 0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat= deferred:  connection refused by [<*>]
+allocating divert_blk for <*>
+apic _ id <*>, version <*>, address <*>, gsi <*>
+asking for cache data failed
+assuming <*> system bus speed for pio modes; override with idebus=xx
+assuming drive cache: write through
+autodetecting raid arrays.
+autorun ...
+cannot open file <*> for writing ( no such file or directory)
+cent os-<*> ( kernel  module gpg key)
+changing permissions on special file <*>
+colour vga+ <*>
+compressed image found at block <*>
+dhcpack on <*> to <*> via eth 1
+dhcpdiscover from <*> via eth 1
+dhcpdiscover from <*> via eth 1: network a _ net: no free leases
+dhcpoffer on <*> to <*> via eth 1
+dhcprequest for <*> (<*>) from <*> via eth 1
+dhcprequest for <*> (<*>) from <*> via eth 1: unknown lease <*>.
+direct- access ansi scsi revision: <*>
+disabled at runtime.
+disk quotas <*>
+error:  bind to port <*> on <*> failed:  address already in use.
+<*>: <*>:  intel(r) pro/<*>  network  connection
+eth 0: <*>: nic  link is  up <*>  mbps  full  duplex
+fw version:[<*>] bios version:[<*>]
+gmetad startup succeeded
+hash tables configured (established <*> bind <*>)
+hpet id: <*> base: <*>
+initialized
+initializing netlink socket (disabled)
+initializing.
+installing public key data
+int _ src _ ovr (bus <*> bus _ irq <*> global _ irq <*> dfl dfl)
+int _ src _ ovr (bus <*> bus _ irq <*> global _ irq <*> high level)
+intel(r)  xeon(tm) cpu <*> stepping <*>
+interpreter enabled
+ioapic (id[<*>] address[<*>] gsi _ base[<*>])
+<*> used by override.
+kernel time sync disabled <*>
+kernel time sync enabled <*>
+l 2 cache: <*>
+lapic (acpi _ id[<*>] lapic _ id[<*>] enabled)
+lapic _ nmi (acpi _ id[<*>] high edge lint[<*>])
+local apic address <*>
+local disconnected:  connection closed.
+lsi  logic  mega raid driver
+md driver <*> max _ md _ devs=<*>, md _ sb _ disks=<*>
+mega raid  model: ld <*> raid 1 <*>  rev: <*>
+mounted filesystem with ordered data mode.
+mounted <*> (ext 2 filesystem).
+mounting nfs filesystems: succeeded
+mounting other filesystems: failed
+my unqualified host name (<*>) unknown; sleeping for retry
+no floppy controllers found
+not allocating divert_blk for non-ethernet device <*>
+now running on <*>'s privileges.
+passed.
+pci  hot  plug pci  core version: <*>
+pci interrupt <*> -> gsi <*> (level, low) -> irq <*>
+pci  interrupt  link [<*>] (ir qs <*> <*> <*> <*> <*> <*> <*> <*>) <*>
+pci  interrupt  link [<*>] (ir qs <*> <*> <*> <*> <*> <*> <*> <*>)
+pci  interrupt  link [<*>] (ir qs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.
+pci  interrupt  routing  table [<*>]
+pci <*>  bridge [pci 0] (<*>)
+pe/pv  model: <*> scsi bp  rev: <*>
+physical  processor id: <*>
+portmap startup succeeded
+power  button (ff) [pwrf]
+probe new device <*>: bus <*>:slot <*>:func <*>
+probe of vesafb0 failed with error <*>
+probing pci hardware (bus <*>)
+processor [<*>] (supports c 1)
+processor ansi scsi revision: <*>
+ps/<*> mouse device common for all mice
+reading included configuration file: <*> [file=<*>] [line=<*>]
+received snmp packet(s) from <*>
+registered new driver hiddev
+registered new driver hub
+registered new driver usbfs
+registered new driver usbhid
+registered protocol family <*>
+registering netfilter hooks
+registering secondary module capability
+removing <*>
+rng not detected
+<*>=label=/ initrd=<*> console=<*> console=<*>,<*> fastboot boot _ image=<*>
+routing cache hash table of <*> buckets, <*>
+rpc.statd startup succeeded
+rrd _ update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+rsdp (<*> dell ) @ <*>
+scanning scsi channel <*> [ phy <*>] for non-raid devices
+scanning scsi channel <*> [virtual] for logical drives
+sda1 sda2 sda3 sda4
+server listening on :: port <*>.
+session closed for user <*>
+session opened for user <*> by (uid=<*>)
+start: tftp pid=<*> from=<*>
+started working: <*> available service
+starting in permissive mode
+starting ts _ fixup: succeeded
+subsystem revision <*>
+succeeded
+synchronized to <*>, stratum <*>
+syslog-ng startup succeeded
+syslog-ng version <*> starting
+time reset +<*> s
+trace cache: <*> uops, l 1 d cache: <*>
+transparent bridge - <*>
+unable to qualify my own domain name (<*>) -- using short name
+unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+unregistering netfilter hooks
+user #<*>#, coming from #<*>#, authenticated.
+using <*> mhz hpet timer.
+using acpi for irq routing
+using configuration type <*>
+using hpet based timekeeping.
+using ioapic for interrupt routing
+using mmconfig at <*>
+using software bounce buffering for io (swiotlb)
+<*> (<*>)
+<*>:usb hid core driver
+version <*>  starting
+wait for ready failed before probe !
+warning: we failed to resolve data source name <*>
+warning: we failed to resolve trusted host name <*>
+xinetd startup succeeded
+xinetd  version <*> started with libwrap loadavg options compiled in.
+<*>  created nt transaction (seq <*>) result <*>, handle @<*>
+<*>  creating nt transaction (seq <*>), objectname [<*>]"(<*>)"
+<*> csi perf trace:
+<*> csi  store <*> (<*>) initialized
+<*> i advanced installer aware store _ resolve pending transactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdw disposition = @<*>
+<*> icsi transaction:: commit calling i store pending transaction:: apply - coldpatching=<*> applyflags=<*>
+<*>  performing <*> operations; <*> are not lock/unlock and follow:
+<*>  store coherency cookie matches last scavenge cookie, skipping scavenge.
+<*>@<*>/<*>/<*>:<*>:<*>:<*> csi  transaction @<*> destroyed
+<*>@<*>/<*>/<*>:<*>:<*>:<*> csi  transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>/"
+<*>@<*>/<*>/<*>:<*>:<*>:<*>  populate component families key -  begin
+<*>@<*>/<*>/<*>:<*>:<*>:<*>  populate component families key -  end
+<*>@<*>/<*>/<*>:<*>:<*>:<*>  wcp initialize (wcp.dll version <*>) called (stack @<*>)
+disabling manifest caching, because the image is not writeable.
+ending the  trusted installer main loop.
+ending  trusted installer finalization.
+ending  trusted installer initialization.
+expecting attribute name [hresult = <*> - cbs _ e _ manifest _ invalid _ item]
+failed to create backup log cab. [hresult = <*> - error _ invalid _ function]
+failed to get next element [hresult = <*> - cbs _ e _ manifest _ invalid _ item]
+failed to internally open package. [hresult = <*> - cbs _ e _ invalid _ package]
+idle processing thread terminated normally
+loaded  servicing  stack <*> with  core: <*>.dll
+loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.
+no startup processing required,  trusted installer service was not set as autostart, or else a reboot is still pending.
+non start:  checking to ensure startup processing was not required.
+non start:  success, startup processing not required as expected.
+offline image is: read-only
+read out cached package applicability for package: <*>,  applicable state: <*>,  current state:<*>
+reboot mark refs incremented to: <*>
+reboot mark refs: <*>
+scavenge:  begin csi  store
+scavenge:  completed, disposition: <*>
+scavenge:  starts
+session: <*> initialized by client spp.
+session: <*> initialized by client windowsupdateagent.
+sqm:  cleaning up report files older than <*> days.
+sqm:  failed to start standard sample upload. [hresult = <*> - e _ fail]
+sqm:  failed to start upload with file pattern: <*>, flags: <*> [hresult = <*> - e _ fail]
+sqm:  initializing online with  windows opt-in: <*>
+sqm:  queued <*> file(s) for upload with pattern: <*>, flags: <*>
+sqm:  requesting upload of all unsent reports.
+sqm:  warning:  failed to upload all unsent reports. [hresult = <*> - e _ fail]
+starting the  trusted installer main loop.
+starting  trusted installer finalization.
+starting  trusted installer initialization.
+startup processing thread terminated normally
+trusted installer service starts successfully.
+unloading offline registry hive: <*>
+warning:  unrecognized package extended attribute.
+*** register callback for <*>@<*>
+*** unregister callback for <*>@<*>
+*** unregister callback for <*>
+[hsm] stay awake <*> uid: <*>, pid: <*>
+[ phone intf mgr] get data enabled: sub id=<*> phone id=<*>
+[ phone intf mgr] get data enabled: sub id=<*> ret val=<*>
+<*>: <*> cannot be cast to <*>$ token
+<*>:  must execute in ui
+abandon audio focus
+acquire lock=<*>, flags=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>
+acquiring suspend blocker " power manager service. wake locks".
+action _ battery _ changed amp: <*>;  volt: <*>
+action _ battery _ changed plugged type: <*>
+activity check resid: <*>, size=<*>
+activity manager service,attach application,calling pid = <*>
+activity record info:  activity info{<*> <*>}, euid: <*>
+add notification key=<*>|<*>|<*>|<*>|<*>
+animate collapse panels:flags=<*>, force=<*>, delayed=<*>, m expanded visible=<*>
+animating brightness: target=<*>, rate=<*>
+application requested orientation <*>, got rotation <*> which has compatible metrics
+apply options locked:  unknown animation type=<*>
+ap sta disabled state what=<*>
+bad activity token: <*>@<*>
+battery changed plugged type: <*>
+cancel autohide
+cancel notification,cancel notification locked,calling uid = <*>,calling pid = <*>
+cancel notification,index:<*>
+cancel notification locked called,tell the app,reason = <*>
+cancel notification locked,remove =<*>
+cancel notification locked:<*>|<*>|<*>|<*>|<*>
+cancel notification with tag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*>
+cancel peek: <*>
+charging speed  wattage: <*> st: <*> --> <*>
+clean up application record -- <*>
+clean up application record locked, pid: <*>, restart: <*>
+clean up application record locked, reset pid: <*>, euid: <*>
+close qs
+default state what=<*>
+destroying surface surface(name=<*>) called by <*>
+disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >
+disable: < expand icons* alerts system _ info* back home recent clock navigationbar search quick _ settings >
+enqueue notification internal: n.get key = <*>
+enqueue notification internal: pkg=<*> id=<*> notification= notification(pri=<*> content view=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> category=msg vis=private)
+enqueue notification internal: pkg=<*> id=<*> notification= notification(pri=<*> content view=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=private)
+fling to height: vel=<*>, expand=<*>, target=<*>, collapse speed up factor=<*>, expand because of falsing=<*>
+get all cell info is blocked by permission manager . calling package = <*>
+get cell location is blocked by permission manager uid:<*> pid:<*>
+get devices for stream stream type: <*>
+get last audible stream volume tream type: <*>
+get mode...
+get neighboring cell info calling app is <*>
+get recent tasks: num=<*>,flags=<*>,total tasks=<*>
+get recent tasks: top activity= component info{<*>}
+get ringer mode...
+get ringtone player...
+get running app processes: caller <*> does not hold real _ get _ tasks; limiting output
+get stream volume tream type: <*>
+get tasks: caller <*> does not hold real _ get _ tasks; limiting output
+handle battery update
+handle time update
+hbm brightness in =<*>
+hbm brightness out =<*>
+instant collapse
+intercept key before queueing: key <*> , result : <*>
+intercept key tq keycode=<*> interactive=<*> keyguard active=<*> policy flags=<*> down <*> canceled <*>
+is bluetooth a 2 dp on...
+is bluetooth sco on...
+is music active...
+is sim pin secure m sim datas is <*> or empty
+is wired headset on...
+killing <*> (adj <*>): empty for <*>
+log notification visibility changes run in thread over
+log notification visibility changes run in thread start
+make expanded invisible: m expanded visible=<*>
+marking notification as seen <*>|<*>|<*>|<*>|<*>
+m heads up existence changed runnable
+m visiblity.get value is <*>
+new  process app= process record{<*> <*>}, name: <*>:qzone, euid: <*>
+notify ui visibility changed:vis=<*>,  system ui visibility=<*>
+on expanding finished
+on expanding started
+on intercept touch event  motion event { action=action _ down, action button=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, tool type[<*>]=tool _ type _ finger, button state=<*>, meta state=<*>, flags=<*>, edge flags=<*>, pointer count=<*>, history size=<*>, event time=<*>, down time=<*>, device id=<*>, source=<*> }, m block touches=<*>
+on intercept touch event  motion event { action=action _ up, action button=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, tool type[<*>]=tool _ type _ finger, button state=<*>, meta state=<*>, flags=<*>, edge flags=<*>, pointer count=<*>, history size=<*>, event time=<*>, down time=<*>, device id=<*>, source=<*> }, m block touches=<*>
+on notification click called
+on notification expansion changed called
+on notification visibility changed called
+on receive, action:<*>
+on touch event::<*>, x=<*>, y=<*>
+on tracking started
+on tracking stopped: <*>
+orientation change is complete, call stop freezing display locked
+overlap amount:<*>, previous notification end:<*>, new y translation:<*>, location:<*>, i:<*>, get top padding:<*>, get location on screen():<*>
+pid:<*>  media player destructor
+play sound effect effect type: <*>
+print freezing display logsopening app wtoken =  app window token{<*> token= token{<*>  activity record{<*> u 0 <*>/.<*> t 761}}}, all drawn= <*>, starting displayed = <*>, starting moved = <*>, is relaunching = <*>
+process <*>:qzone (pid <*>) has died
+query sound effects enabled...
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>. 0 user id=<*>
+received broadcast <*>
+received time _ tick alarm; rescheduling
+refresh battery info is battery low: <*>
+register callback not in ui.
+release:lock=<*>, flg=<*>, tag="<*>", name=<*>, ws=<*>, uid=<*>, pid=<*>
+releasing suspend blocker " power manager service. wake locks".
+remove( pending intent{<*>:  pending intent record{<*> <*> broadcast intent}}) changed bounds; rebatching
+remove notification:<*>|<*>|<*>|<*>|<*>
+remove notification children
+resume suspended autohide
+rotation for orientation lw(orient=<*>, last=<*>); user=<*> user _ rotation _ locked
+schedule peek
+schedule time tick event trigger at time = <*>
+scheduling restart of crashed service <*> in <*>
+screen frozen for <*> due to  window{<*> u 0 <*>}
+sending alarm  alarm{<*> type <*> when <*>  pending intent{<*>:  pending intent record{<*> <*> broadcast intent}}},repeat interval = <*>,listener tag =<*>
+sending alarm  alarm{<*> type <*> when <*>  pending intent{<*>:  pending intent record{<*> android broadcast intent}}},repeat interval = <*>,listener tag =time _ tick
+sending non-protected broadcast <*> from system <*> pkg <*>
+set data source(<*>, <*>, <*>)
+set lights on(<*>)
+set speakerphone on on: <*>
+set speakerphone on on:<*>
+set system ui visibility vis=<*> mask=<*> old val=<*> new val=<*> diff=<*> fullscreen stack vis=<*> docked stack vis=<*>, fullscreen stack bounds= rect(<*>, <*> - <*>, <*>), docked stack bounds= rect(<*>, <*> - <*>, <*>)
+set wired device connection state type: <*> state: <*>
+should block location ret:<*>
+should block location running ...
+skipping  app window token{<*> token= token{<*>  activity record{<*> u 0 <*>}}} -- going to hide
+skipping, with excluded: <*>, tr.intent: intent { act=<*> dat=<*> flg=<*> cmp=<*> (has extras) }
+skipping, with excluded: <*>, tr.intent: intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }
+skipping, with excluded: <*>, tr.intent: intent { act=<*> flg=<*> cmp=<*> (has extras) }
+skipping, with excluded: <*>, tr.intent: intent { flg=<*> cmp=<*> (has extras) }
+skipping, with excluded: <*>, tr.intent: intent { flg=<*> cmp=<*> bnds=<*> }
+start dump, calling from : pid=<*>, uid=<*>
+start proc <*> for service <*>
+start u 0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>
+start u 0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>
+start u 0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>
+start activity called from non- activity context; forcing  intent.flag _ activity _ new _ task for:  intent { flg=<*> cmp=<*> (has extras) }
+start animation begin
+start animation end
+state.clip top amount:<*>, i:<*>
+stop wifi display scan locked m wifi display scan request count=<*>
+stop wifi display scan locked record.m wifi display scan requested=<*>
+suspend autohide
+taking screenshot from  surface with crop:[ rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], min layer:[<*>], max layer:[<*>], in rotation:[<*>], rot:[<*>]
+the change in focus caused us to need to do a layout begin
+the change in focus caused us to need to do a layout end
+unable to start service  intent { act=<*> cmp=<*> } u=<*>: not found
+unregister audio focus listener...
+update charging locked: charging=<*>
+update clipping is overlap:<*>, get top padding=<*>,  translation=<*>
+update dimmed activated hide sensitive overlap:<*>
+update is powered locked: was powered=<*>, m is powered=<*>, old plug type=<*>, m plug type=<*>, m battery level=<*>
+update lights locked,m in call =<*>,m screen on = <*>,led notification == null?false
+update lights locked,m in call =<*>,m screen on = <*>,led notification == null?true
+update lights locked,turn off notification light
+update notification shade: total=<*>, active=<*>
+user activity no update locked: event time=<*>, event=<*>, flags=<*>, uid=<*>
+visible is <*>
+visible is <*> gt <*>
+[instance: <*>]  attempting claim: memory <*> mb, disk <*> gb, vcpus <*> cpu
+[instance: <*>]  claim successful
+[instance: <*>]  creating image
+[instance: <*>]  deleting instance files <*>
+[instance: <*>]  deletion of <*> complete
+[instance: <*>] disk limit not specified, defaulting to unlimited
+[instance: <*>]  during sync _ power _ state the instance has a pending task (spawning).  skip.
+[instance: <*>]  instance destroyed successfully.
+[instance: <*>]  instance spawned successfully.
+[instance: <*>] memory limit: <*> mb, free: <*> mb
+[instance: <*>]  terminating instance
+[instance: <*>]  took <*> seconds to build instance.
+[instance: <*>]  took <*> seconds to deallocate network for instance.
+[instance: <*>]  took <*> seconds to destroy the instance on the hypervisor.
+[instance: <*>]  took <*> seconds to spawn the instance on the hypervisor.
+[instance: <*>]  total disk: <*> gb, used: <*> gb
+[instance: <*>]  total memory: <*> mb, used: <*> mb
+[instance: <*>]  total vcpu: <*> vcpu, used: <*> vcpu
+[instance: <*>] vcpu limit not specified, defaulting to unlimited
+[instance: <*>] vm  paused ( lifecycle  event)
+[instance: <*>] vm  resumed ( lifecycle  event)
+[instance: <*>] vm  started ( lifecycle  event)
+[instance: <*>] vm  stopped ( lifecycle  event)
+<*> "delete <*>" status: <*> len: <*> time: <*>
+<*> "get <*>" status: <*> len: <*> time: <*>
+<*> "post <*>" status: <*> len: <*> time: <*>
+active base files: <*>
+auditing locally available compute resources for node <*>
+base or swap file too young to remove: <*>
+compute _ service record updated for <*>
+creating event network-vif-plugged:<*> for instance <*>
+final resource view: name=<*> phys _ ram=<*> used _ ram=<*> phys _ disk=<*> used _ disk=<*> total _ vcpus=<*> used _ vcpus=<*> pci _ stats=[]
+http exception thrown:  no instances found for any event
+image <*> at (<*>): checking
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage
+removable base files: <*>
+removing base or swap file: <*>
+running instance usage audit for host <*> from <*> to <*>. <*> instances.
+successfully synced instances from host '<*>'.
+the instance sync for host '<*>' did not match.  re-created its  instance list.
+total usable vcpus: <*>, total allocated vcpus: <*>
+unknown base file: <*>
+while synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.
+jk 2 _ init()  found child <*> in scoreboard slot <*>
+worker env.init() ok <*>
+mod _ jk child worker env in error state <*>
+[client <*>]  directory index forbidden by rule: <*>
+jk 2 _ init()  can't find child <*> in scoreboard
+mod_jk child init <*> <*>
+<*>  served block <*> to <*>
+<*>  starting thread to transfer block <*> to <*>
+<*>: got exception while serving <*> to <*>:
+block* ask <*> to delete <*>
+block* ask <*> to replicate <*> to datanode(s) <*>
+block*  name system.add stored block: block map updated: <*> is added to <*> size <*>
+block*  name system.allocate block: <*> <*>
+block*  name system.delete: <*> is added to invalid set of <*>
+deleting block <*> file <*>
+packet responder <*> for block <*> terminating
+received block <*> of size <*> from <*>
+received block <*> src: <*> dest: <*> of size <*>
+receiving block <*> src: <*> dest: <*>
+verification succeeded for <*>
+*** info [mice.c(<*>)]:
+<*> highmem available.
+<*> lowmem available.
+acpi disabled because your bios is from <*> and too old
+acpi: acpi tables contain no pci irq routing entries
+acpi:  interpreter disabled.
+acpi:  subsystem revision <*>
+alert exited abnormally with [<*>]
+anonymous ftp login from <*>, (anonymous)
+apm: bios version <*>  flags <*> ( driver version <*>)
+audit(<*>:<*>): initialized
+audit: initializing netlink socket (disabled)
+authentication failed from <*> <*>:  permission denied in replay cache code
+authentication failed from <*> <*>:  software caused connection abort
+authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=
+authentication failure; logname= uid=<*> euid=<*> tty=node vssh ruser= rhost=<*>
+authentication failure; logname= uid=<*> euid=<*> tty=node vssh ruser= rhost=<*> user=<*>
+bios-e 820: <*> - <*> (reserved)
+bios-e 820: <*> - <*> (usable)
+bios-provided physical ram map:
+bringing up loopback interface: succeeded
+built <*> zonelists
+calibrating delay loop... <*>  bogo mips
+capability lsm initialized
+check pass; user unknown
+checking 'hlt' instruction... ok.
+connection from <*> <*> at <*>:<*>:<*>
+console: colour vga+ <*>
+couldn't authenticate user
+cpu <*> irqstacks, hard=<*> soft=<*>
+cpu:  intel  pentium iii ( coppermine) stepping <*>
+cpu: l 1 i cache: <*>, l 1 d cache: <*>
+cpu: l 2 cache: <*>
+creating device node '<*>'
+cupsd shutdown succeeded
+cupsd startup succeeded
+dentry cache hash table entries: <*> (order: <*>, <*> bytes)
+detected <*> m hz processor.
+dma zone: <*> pages, lifo batch:<*>
+dmi <*> present.
+dquot-cache hash table entries: <*> (order <*>, <*> bytes)
+enabling fast fpu save and restore... done.
+enabling unmasked simd fpu exception support... done.
+failure registering capabilities with the kernel
+getpeername (ftpd):  transport endpoint is not connected
+hci daemon ver <*> started
+hcid startup succeeded
+high mem zone: <*> pages, lifo batch:<*>
+imps 2:  auto-detected intellimouse ps/<*>
+initializing cpu#<*>
+initializing  cryptographic api
+initializing random number generator: succeeded
+inode-cache hash table entries: <*> (order: <*>, <*> bytes)
+intel machine check architecture supported.
+intel machine check reporting enabled on cpu#<*>.
+irqbalance startup succeeded
+isapnp:  no  plug &  play device found
+isapnp:  scanning for  pn p cards...
+kerberos authentication failed
+kernel command line: ro <*>=label=/ rhgb quiet
+kernel.core_uses_pid = <*>
+klogd <*>, log source = <*> started.
+klogd startup succeeded
+linux agpgart interface <*> (c)  dave  jones
+linux  plug and  play  support <*> (c)  adam  belay
+linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> ( red  hat  linux <*>)) #<*> <*>:<*>:<*> edt <*>
+mapped  4 g/ 4 g trampoline to <*>.
+memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)
+mount-cache hash table entries: <*> (order: <*>, <*> bytes)
+mtrr: <*> (<*>)
+net:  registered protocol family <*>
+normal zone: <*> pages, lifo batch:<*>
+notify question section contains no soa
+on node <*> totalpages: <*>
+pci:  invalid acpi-pci irq routing table
+pci: pci bios revision <*> entry at <*>, last bus=<*>
+pci:  probing pci hardware
+pci:  probing pci hardware (bus <*>)
+pci:  using configuration type <*>
+pci:  using irq router piix/ich [<*>/<*>] at <*>
+pci _ hotplug: pci  hot  plug pci  core version: <*>
+pid hash table entries: <*> (order <*>: <*> bytes)
+portmap startup succeeded
+posix conformance testing by unifix
+real  time  clock  driver <*>
+received snmp packet(s) from <*>
+removing device node '<*>'
+restart.
+<*> login on tty 2
+rpc.idmapd startup succeeded
+rpc.statd startup succeeded
+sdpd startup succeeded
+sdpd <*> started
+security  scaffold <*> initialized
+se linux:  initializing.
+se linux:  registering netfilter hooks
+se linux:  starting in permissive mode
+selinux _ register _ security:  registering secondary module capability
+session closed for user <*>
+session opened for user <*> by (uid=<*>)
+session opened for user <*> by login(uid=<*>)
+setting network parameters: succeeded
+starting pcmcia: succeeded
+syslogd startup succeeded
+there is already a security framework initialized, register _ security failed.
+total  huge tlb memory allocated, <*>
+transparent bridge - <*>
+usbcore: registered new driver hub
+usbcore: registered new driver usbfs
+user unknown timed out after <*> seconds at <*>:<*>:<*> <*>
+using tsc for high-res timesource
+version <*>  starting
+vfs:  disk quotas <*>
+warning: can't get client address:  connection reset by peer
+you can enable it with acpi=force
+zapping low mappings.
+<*>:  committed
+block <*> stored as bytes in memory (estimated size <*>, free <*>)
+block <*> stored as values in memory (estimated size <*>, free <*>)
+changing modify acls to: <*>
+changing view acls to: <*>
+connecting to driver: <*>
+created local directory at <*>
+file  output  committer  algorithm version is <*>
+finished task <*> in stage <*> (tid <*>). <*> bytes result sent to driver
+found block <*> locally
+got assigned task <*>
+input split: <*>
+mapred.job.id is deprecated.  instead, use mapreduce.job.id
+mapred.task.id is deprecated.  instead, use mapreduce.task.attempt.id
+mapred.task.is.map is deprecated.  instead, use mapreduce.task.ismap
+mapred.task.partition is deprecated.  instead, use mapreduce.task.partition
+mapred.tip.id is deprecated.  instead, use mapreduce.task.id
+memory store started with capacity <*> gb
+partition <*> not found, computing it
+reading broadcast variable <*> took <*> ms
+registered  block manager
+registered signal handlers for [term, hup, int]
+remoting started; listening on addresses :[<*>]
+running task <*> in stage <*> (tid <*>)
+saved output of task '<*>' to <*>
+security manager: authentication disabled; ui acls disabled; users with view permissions:  set(yarn, curi); users with modify permissions:  set(yarn, curi)
+server created on <*>
+slf 4 j logger started
+started reading broadcast variable <*>
+starting executor id <*> on host <*>
+starting remoting
+successfully registered with driver
+successfully started service 'org.apache.spark.network.netty. netty block transfer service' on port <*>.
+successfully started service 'spark executor actor system' on port <*>.
+times: total = <*>, boot = <*>, init = <*>, finish = <*>
+trying to register  block manager
+##############################  _ get sys msg list
+( disk store. normal:<*>) <*> <*>
+( import bailout. error:<*>)  asked to exit for  diskarb
+**** [ broadcom bluetooth host controller][ setup controller] --  delay hci  reset by <*> ****
+**** [ broadcom bluetooth host controller usb transport][start] --  completed (matched on  device) -- <*> ****
+**** [io bluetooth family][ process bluetooth transport shows up action wl] -- calling io bluetooth family's register service() -- <*> -- <*> -- <*> ****
+**** [io bluetooth family][ process bluetooth transport shows up action wl] --  connected to the transport successfully -- <*> -- <*> -- <*> ****
+**** [io bluetooth host controller usb transport][start] -- completed -- result = <*> -- <*> ****
+.sdef warning for argument '' of command 'can continue previous list' in suite ' microsoft  word  suite': '<*>' is not a valid type name.
+[<*>/<*>:warning:dns _ config _ service _ posix.cc(<*>)]  failed to read  dns config.
+[<*>:<*>:<*>] ( fig) signalled err=<*>
+[<*>:<*>:<*>] <<<<  boss >>>> fig playback boss preroll completed: unexpected preroll-complete notification
+[<*>:<*>:<*>] <<<< crabs >>>> crabs flume host available: [<*>]  byte flume reports host available again.
+[<*>:<*>:<*>] <<<< crabs >>>> crabs flume host unavailable: [<*>]  byte flume reports host unavailable.
+[<*>:<*>:<*>] <<<< crabs >>>> crabs wait for load: [<*>]  wait time out - <*> (ms request timeout <*>)
+[<*>:<*>:<*>] <<<< iq-ca >>>> piqca _ set use pre queue: (<*>) rejecting report of layer being serviced - iq has not yet begun to update
+[<*>:<*>:<*>]  fig agglomerator set object for key signalled err=<*> (k fig string conformer error _ param err) (<*> key) at <*> line <*>
+[<*>:<*>:<*>] itemasync _ copy property signalled err=<*> (k fig base object error _ invalidated) (invalidated) at <*> line <*>
+[<*>:<*>:<*>] itemasync _ set property signalled err=<*> (k fig base object error _ invalidated) (invalidated) at <*> line <*>
+[<*>:<*>:<*>] mv _ low level check if video playable using decoder signalled err=<*> (k fig media validator error _ video codec not supported) (video codec <*>) at line <*>
+[ accounts]  current connection, <nsxpc connection: <*> connection from pid <*>, doesn't have account access.
+[ accounts]  failed to update account with identifier <*>-<*>-<*>-<*>-<*>, error:  error  domain=ab address book error domain  code=<*> "(<*>)"
+[ bluetooth hid device controller]  event service connected callback
+[ bluetooth hid device controller]  event service disconnected callback
+[ bluetooth hid device controller]error:  could not find the disconnected object
+[ card dav plugin-error] -get principal info:[ _ controller supports request compression at url:<*>]  error  domain=nsurl error domain  code=<*> " the  internet connection appears to be offline."  user info={ns underlying error=<*> { error  domain=k cf error domain cf network  code=<*> " the  internet connection appears to be offline."  user info={ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error code key=<*>,  _ k cf stream error domain key=<*>, ns localized description= the  internet connection appears to be offline.}}, ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error domain key=<*>,  _ k cf stream error code key=<*>, ns localized description= the  internet connection appears to be offline.}
+[ card dav plugin-error] -get principal info:[ _ controller supports request compression at url:<*>]  error  domain=nsurl error domain  code=<*> " the request timed out."  user info={ns underlying error=<*> { error  domain=k cf error domain cf network  code=<*> " the request timed out."  user info={ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error code key=<*>,  _ k cf stream error domain key=<*>, ns localized description= the request timed out.}}, ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error domain key=<*>,  _ k cf stream error code key=<*>, ns localized description= the request timed out.}
+[com.apple.calendar.store.log.caldav.coredav] [ refusing to parse response to proppatch because of content-type: [text/html; charset=utf-<*>].]
+[com.apple.calendar.store.log.caldav.queue] [ account <*> timed out when executing operation: < cal dav account refresh queueable operation: <*>;  sequence: <*>]
+[com.apple.calendar.store.log.caldav.queue] [ account refresh failed with error:  error  domain= core davhttp status error domain  code=<*> "(<*>)"  user info={ account name=<*>,  cal dav err from refresh=yes,  core davhttp headers=<cf basic hash <*> [<*>]>{type = immutable dict, count = <*>, entries => <*> :  connection = <cf string <*> [<*>]>{contents = "keep-alive"} <*> :  content- type = text/html <*> :  content- length = <*> <*> :  server = nginx <*> :  date = <cf string <*> [<*>]>{contents = "<*> <*> <*>:<*>:<*> gmt"} } }]
+[com.apple.calendar.store.log.caldav.queue] [ adding [< cal dav account refresh queueable operation: <*>;  sequence: <*>] to failed operations.]
+[hid] [atc] [ error]  apple device management hid event service::start  could not make a string from out connection notification key
+[hid] [atc]  apple device management hid event service::process wake reason  wake reason:  host (<*>)
+[hid] [mt]  apple actuator hid event driver::start entered
+[hid] [mt]  apple multitouch device::start entered
+[hid] [mt]  apple multitouch device::will terminate entered
+[hid] [mt] mt actuator management::get actuator ref  calling mt actuator open() outside of mt trackpad hid manager.
+[io bluetooth family][static bluetooth transport shows up] --  received  bluetooth  controller register service notification -- <*>
+[io bluetooth host controller::set config state] calling register service
+-[is generate image op generate image with completion:]  failed to composit image for descriptor <is binding image descriptor: <*>.
+-[net client connection effective bundle id] using process name apsd as bundle id (this is expected for daemons without bundle id
+-[net client connection effective bundle id] using process name  calendar agent as bundle id (this is expected for daemons without bundle id
+-[net client connection evaluate crazy ivan 46] ci 46 -  perform  crazy ivan 46! <*> <*> <*>:<*>
+-[ network analytics engine  _ write journal record:from cell fingerprint:key:at loi:of kind:lqm:is faulty:]  hashing of the primary key failed.  dropping the journal record.
+[ql]  no sandbox token for request <ql thumbnail request vmware-usbarb-<*>.log>, it will probably fail
+-[sfl list manager( service reply protocol) notify changes:to list with identifier:]  notified of item changes to list with identifier com.apple.ls shared file list. recent applications
+-[soap parser:<*> parser:did start element:namespace uri:qualified name:attributes:]  type not found in ews item type for  exchange person id guid (t: exchange person id guid)
+-[ua best app suggestion manager notify best app changed:type:options:bundle identifier:activity type:dynamic identifier:when:confidence:device name:device identifier:device type:] (<*>) ua suggested action type=<*> (<*>)/(<*>) opts=(<*>) when=<*>
+<*>-[net client connection <*>] _ block _ invoke ci 46 -  hit by torpedo! <*> <*> <*>:<*>
+<*>-[ network analytics engine observe value for key path:of object:change:context:] _ block _ invoke unexpected switch value <*>
+<*>(<*>) deny mach-lookup com.apple.networking.captivenetworksupport
+<*>(<*>) deny network-outbound <*>
+<*>/<*>/<*> <*>:<*>:<*> | i |  voip wrapper | dav engine impl.cpp:<*>: close | close video chat. ll friend uin = <*>.
+<*>::<*> - intel_rp = <*> dlla_reporting_supported = <*>
+<*>::<*> - retries = <*>
+<*>::<*>::post message bssid changed
+<*>::pre pci wake - power up complete - took <*> us
+<*>::set awdl auto mode  resuming awdl
+<*>::set awdl operating mode  setting the awdl operation mode from auto to suspended
+<*>::set awdl operating mode  setting the awdl operation mode from suspended to auto
+<*>::set awdl suspended mode()  suspending awdl, enter quiet mode(<*>)
+<*>:<*>:<*> : btle discovered device with hash <*> <*> <*>
+<*>:<*>:<*> : btle scanner  powered  off
+<*>:<*>:<*> : btle scanner  powered  on
+<*>:<*>:<*> : btle scanning started
+<*>:<*>:<*> : btle scanning stopped
+<*>:<*>:<*> :  discoverable mode changed to  off
+<*>:<*>:<*> :  finished generating hashes
+<*>:<*>:<*> :  purged contact hashes
+<*>:<*>:<*> :  scanning mode  contacts  only
+<*>:<*>:<*> :  started generating hashes
+<*>:<*>:<*> :  starting  air drop server for user <*> on wake
+<*>:<*>:<*> error: <*>: timed out after <*> (<*> <*>); m major change pending=<*>
+<*>- _ continuous scroll is deprecated for ns scroll wheel.  please use -has precise scrolling deltas.
+<*>: i pv 6 address <*> has no prefix
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks agent app perform self update with engine:]  checking for self update with  engine: <ks update engine:<*> ticket store=<ks persistent ticket store:<*> store=<ks keyed persistent store:<*> path=<*> lock file=<ks lock file:<*> path=<*> locked=no > >> processor=<ks action processor:<*> delegate=<ks update engine:<*> is processing=no actions completed=<*> progress=<*> errors=<*> current action errors=<*> events=<*> current action events=<*> action queue=( ) > delegate=(<*>) server info store=<ks server private info store:<*> path=<*> errors=<*> >
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks agent app update product with product id:using engine:]  checking for updates for "com.google. keystone" using engine <ks update engine:<*> ticket store=<ks persistent ticket store:<*> store=<ks keyed persistent store:<*> path="<*>" lock file=<ks lock file:<*> path="<*>" locked=no > >> processor=<ks action processor:<*> delegate=<ks update engine:<*> is processing=no actions completed=<*> progress=<*> errors=<*> current action errors=<*> events=<*> current action events=<*> action queue=( ) > delegate=(<*>) server info store=<ks server private info store:<*> path="<*>"> errors=<*> >
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks agent app( keystone delegate) update engine finished with errors:]  keystone finished: errors=<*>
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks agent app( keystone thread) run keystones in thread with arg:]  about to run checks for any other apps.
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks agent app( keystone thread) run keystones in thread with arg:]  checking with local engine: <ks update engine:<*> ticket store=<ks persistent ticket store:<*> store=<ks keyed persistent store:<*> path="<*>" lock file=<ks lock file:<*> path="<*>" locked=no > >> processor=<ks action processor:<*> delegate=<ks update engine:<*> is processing=no actions completed=<*> progress=<*> errors=<*> current action errors=<*> events=<*> current action events=<*> action queue=( ) > delegate=(<*>) server info store=<ks server private info store:<*> path=<*> errors=<*> >
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks multi update action perform action] ks prompt action had no updates to apply.
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks omaha server update infos for update response:update request:info store:up to date tickets:updated tickets:events:errors:]  response passed cup validation.
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks out of process fetcher begin fetch with delegate:] ks out of process fetcher fetching from url: "<*>"
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks out of process fetcher begin fetch with delegate:] ks out of process fetcher start fetch from url: "<*>"
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks out of process fetcher( private methods) helper did terminate:] ks out of process fetcher fetch ended for url: "<*>"
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks out of process fetcher( private methods) launched helper task for tool path:error:] ks out of process fetcher launched '<*>' with process id: <*>
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks prefetch action perform action] ks prefetch action no updates to prefetch.
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks update check action perform action] ks update check action starting update check for ticket(s): {( <ks ticket:<*> product id=<*> version=<*> xc=<ks path existence checker:<*> path=<*> server type= omaha url=<*> creation date=<*>-<*>-<*> <*>:<*>:<*> tag path=<*> tag key=ks channel id brand path=<*> brand key=ks brand id version path=<*> version key=ks version cohort=<*>:<*>: cohort name= stable ticket version=<*> > )}  using server: <ks omaha server:<*> engine=<ks update engine:<*> >
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks update check action perform action] ks update check action starting update check for ticket(s): {( <ks ticket:<*> product id=<*> version=<*> xc=<ks path existence checker:<*> path=<*> url=<*> creation date=<*>-<*>-<*> <*>:<*>:<*> ticket version=<*> > )}  using server: <ks omaha server:<*> engine=<ks update engine:<*> >
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] -[ks update engine update all except product:] ks update engine updating all installed products, except:'com.google. keystone'.
+<*>-<*>-<*> <*>:<*>:<*>  google software update agent[<*>/<*>] [lvl=<*>] +[ks code signing verification verify bundle:application id:error:] ks code signing verification verifying code signing for '<*>' with the requirement 'anchor apple generic and certificate <*>[field.<*>] exists and certificate leaf[field.<*>] exists and certificate leaf[subject.ou]="<*>" and (identifier="com.google. keystone")'
+<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] ks helper receive all data() ks helper tool read <*> bytes from stdin.
+<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main()  fetcher is exiting.
+<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main()  fetcher received a request: <ns mutable url request: <*> { url: <*> }
+<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch done fetching.
+<*>-<*>-<*> <*>:<*>:<*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch fetching url (<ns mutable url request: <*> { url: <*> }) to folder:<*>
+<*>-<*>-<*> <*>:<*>:<*> pm [ air play ui agent]  becoming inactive: ns workspace will sleep notification
+<*>-device delta y is deprecated for ns scroll wheel.  please use -scrolling delta y.
+<<<<  fig byte stream >>>>  fig byte stream stats log one read:  byte stream read of <*> bytes @ <*> took <*> <*> to complete, <*> reads >= <*> sec.
+<<<<  media validator >>>> <*>:  unrecognized codec <*>.(<*>).  failed codec specific check.
+<<<<  media validator >>>> mv _ lookup codec support:  unrecognized codec <*>
+<im mac notification center manager: <*>: nc  disabled: no
+<im mac notification center manager: <*>: dnd  enabled: no
+<im mac notification center manager: <*>: dnd  enabled: yes
+<im mac notification center manager: <*>: notification observer: com.apple. face time notification:  _ _ cf notification <*> {name =  _ ns do not disturb enabled notification}
+<im mac notification center manager: <*>:  updating enabled: no ( topics: ( ))
+<im mac notification center manager: <*>:  updating enabled: yes ( topics: (<*>))
+after trim url = https://www.google.com/ _/chrome/newtab?rlz=<*>&espv=<*>&ie=utf-<*>
+air port:  link  down on awdl 0.  reason <*> ( unspecified).
+air port:  link  down on en 0.  reason <*> ( disassociated because station leaving).
+air port:  link  up on awdl 0
+air port:  link  up on en 0
+apple actuator device::start  entered
+apple actuator device::stop  entered
+apple actuator device user client::start  entered
+apple actuator device user client::stop  entered
+apple actuator hid event driver: message service is terminated
+apple actuator hid event driver: stop
+apple cam in::handle wake event _ gated
+apple cam in::system wake call - message type = <*>
+apple cam in::wake event handler thread
+apple thunderbolt generic hal::early wake - complete - took <*> milliseconds
+arp _ client _ transmit(<*>) failed,  network is down (<*>)
+arpt: <*>: <*>::platform wo w enable: wwen[disable]
+arpt: <*>: <*>::platform wo w enable: wwen[enable]
+arpt: <*>: <*>::power change:  system  sleep
+arpt: <*>: <*>::power change:  system  wake -  full  wake/  dark  wake /  maintenance wake
+arpt: <*>: <*>::sync power state: wwen[enabled]
+arpt: <*>: aqm agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>
+arpt: <*>: aqm agg results <*> len hi/lo: <*> <*> b abitmap(<*>-<*>) <*>
+arpt: <*>: arpt:  wake  reason:  wake on  scan offload
+arpt: <*>: arpt:  wake  reason:  wake on tcp  timeout
+arpt: <*>: framerdy <*> bmccmd <*> framecnt <*>
+arpt: <*>: iopm power source  information: on sleep,  sleep type:  normal  sleep, ' external connected':  no, ' time remaining': <*>,
+arpt: <*>: iopm power source  information: on sleep,  sleep type:  normal  sleep, ' external connected':  yes, ' time remaining': <*>,
+arpt: <*>: iopm power source  information: on sleep,  sleep type:  standby, ' external connected':  no, ' time remaining': <*>,
+arpt: <*>: iopm power source  information: on wake,  sleep type:  normal  sleep, ' external connected':  no, ' time remaining': <*>,
+arpt: <*>: iopm power source  information: on wake,  sleep type:  normal  sleep, ' external connected':  yes, ' time remaining': <*>,
+arpt: <*>: wl 0: leave module powered for offloads:  wi- fi will stay on.
+arpt: <*>: wl 0: mdns: <*> srv  recs, <*> txt  recs
+arpt: <*>: wl 0: mdns: ipv 4  addr: <*>
+arpt: <*>: wl 0: mdns: ipv 6  addr: <*>
+arpt: <*>: wl 0:  roamed or switched channel, reason #<*>, bssid <*>:<*>:<*>:<*>, last rssi <*>
+arpt: <*>: wl 0: setup _ keepalive: interval <*>, retry _ interval <*>, retry _ count <*>
+arpt: <*>: wl 0: setup _ keepalive:  local ip: <*>
+arpt: <*>: wl 0: setup _ keepalive:  local port: <*>,  remote port: <*>
+arpt: <*>: wl 0: setup _ keepalive:  remote ip: <*>
+arpt: <*>: wl 0: setup _ keepalive:  seq: <*>,  ack: <*>,  win size: <*>
+arpt: <*>: wl 0: wl _ update _ tcpkeep _ seq:  original  seq: <*>,  ack: <*>,  win size: <*>
+arpt: <*>: wl 0: wl _ update _ tcpkeep _ seq:  updated seq/ack/win from  user client  seq <*>,  ack <*>,  win size <*>
+arpt: <*>: wlc _ dump _ aggfifo:
+arranged view frame: {{<*>, <*>}
+{<*>, <*>}}
+asl  sender  statistics
+assertion failed: <*> [<*>-<*>-<*>-<*>-<*>]: <*>
+assertion failed: dvc addr ref != ((void *)<*>) -[ driver services get device address:] line: <*>
+bitmap _ size <*>, preview size <*>, writing <*> pages @ <*>
+bluetooth -- le is supported -  disable le meta event
+booter start at <*> ms smc <*> ms, [<*>, <*>, <*>] total <*> ms, dsply <*>, <*> ms, tramp <*> ms
+build act device entry enter
+build act device entry exit
+button report: <*>
+captive: [cn info network active:<*>] en 0: ssid ' cal visitor' making interface primary (cache indicates network not captive)
+captive: cn plugin handler en 0:  authenticated
+captive: cn plugin handler en 0:  evaluating
+captive: cn plugin handler en 0:  inactive
+cc data tap::profile removed,  owner: <*>,  name: <*>
+cc file::capture log
+cc file::capture log  received  capture notice id: <*>, reason =  roam fail:sts:<num> _ rsn:<num>
+cc file::capture log  received  capture notice id: <*>, reason =  assoc fail:sts:<num> _ rsn:<num>
+cc file::capture log  received  capture notice id: <*>, reason =  deauth ind:sts:<num> _ rsn:<num>
+cc file::capture log  received  capture notice id: <*>, reason =  auth fail:sts:<num> _ rsn:<num>
+cc file::capture log run  skipping current file  dir file [<*>-<*>-<*>,<*>,<*>]-<*>,  current  file [<*>-<*>-<*>,<*>,<*>]-<*>
+cc file::capture log run()  exiting cc file::capture log run
+cc file::copy file file name is [<*>-<*>-<*>,<*>,<*>]-<*>, source path:<*>, dest path:<*>
+ccio reporter formatter::add registry child to channel dictionary streams <*>
+ccio reporter formatter::refresh subscriptions from stream registry clearing out any previous subscriptions
+cc log tap::profile removed,  owner: com.apple.iokit.<*>,  name: <*>
+cc profile monitor::free resources done
+cc profile monitor::set stream event handler
+ccxpc service::set stream event handler  registered for notification callback.
+central manager is not powered on
+cf network ssl handshake failed (<*>)
+cf pasteboard ref cf pasteboard create(cf allocator ref, cf string ref) : failed to create global data
+cgx display did wake notification [<*>]: posting k cgs display did wake
+checking i cdp status for dsid <*> (check with server=<*>)
+chrome existion main is undetect with command = <*>
+chrome existion main str send msg = {"websitekey":<*>,"commandkey":<*>,"browserkey":<*>}
+cocoa scripting error for '<*>': four character codes must be four characters long.
+com.apple.<*>: scheduler _ evaluate _ activity told me to run this job; however, but the start time isn't for <*> seconds.  ignoring.
+configuration  notice: asl  module "<*>" claims selected messages.  those messages may not appear in standard system log files or in the asl database.
+configuration  notice: asl  module "com.apple.authkit.osx.asl" sharing output destination "<*>" with asl  module "com.apple. accounts".  output parameters from asl  module "com.apple. accounts" override any specified in asl  module "com.apple.authkit.osx.asl".
+core animation: timed out fence <*>
+core animation: warning, deleted thread with uncommitted ca transaction; set ca _ debug _ transactions=<*> in environment to log backtraces.
+could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>
+could not get event name for stream/token: com.apple.xpc.activity/<*>: <*>:  request for stale data
+daemon connection invalidated!
+db  error: <*> "no such table: <*>"
+db  path: <*>
+device_generate_desktop_screenshot: authw <*>(<*>), shield <*>(<*>)
+device_generate_lock_screen_screenshot: authw <*>(<*>)[<*>, <*>, <*>, <*>] shield <*>(<*>), dev [<*>,<*>]
+did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>
+dnssd _ clientstub  connect to server: connect() failed path:<*>  socket:<*>  err:<*>  errno:<*>  operation not permitted
+dnssd _ clientstub  connect to server: connect()->  no of tries: <*>
+do save channels@<*>:  will write to: <*>
+efi pagecount <*>
+en0: <*> country code set to '<*>'.
+en 0: bssid changed to <*>
+en0: channel changed to <*>
+en0: manual intervention required!
+en 0:  supported channels <*>
+enabling pid=<*> for plug-in com.apple.ncplugin.weather(<*>) <*>-<*>-<*>-<*>-<*> <*>
+error in  core drag remove receive handler: <*>
+error in  core drag remove tracking handler: <*>
+error returned from iconservicesagent: (<*>)
+extension com.apple.ncplugin. world clock -> (<*>)
+fa|| url||task id[<*>] dealloc
+failed to connect (title field) outlet from (mm session picker choosen row view) to (ns text field): missing setter or instance variable
+failed to connect (view) outlet from (ns application) to (ns color picker grid view): missing setter or instance variable
+failed to stop a scan - central is not powered on: <*>
+full wake promotion (reason <*>) <*> ms
+full wake request (reason <*>) <*> ms
+google  chrome  he[<*>] triggered unnest of range <*>-<*> of dyld shared region in vm map <*>.  while not abnormal for debuggers, this increases system memory footprint until the target exits.
+got an xpc error:  connection invalid
+handle _ will _ sleep _ auth _ and _ shield _ windows:  reordering authw <*>(<*>) (lock state: <*>)
+hci controller online; hid devices? <*>
+hibernate image path: <*>
+hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*>
+hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages
+hibernate _ machine _ init pages done <*> sum 2 <*>, time: <*> ms, disk(<*>) <*>  mb/s, comp bytes: <*> time: <*> ms <*>  mb/s, crypt bytes: <*> time: <*> ms <*>  mb/s
+hibernate_machine_init reading
+hibernate _ machine _ init: state <*>, image pages <*>, sum was <*>, image size <*>, image 1 size <*>, conflict count <*>, next free <*>
+hibernate _ newruntime _ map time: <*> ms, io polled file pollers open(), ml _ get _ interrupts _ enabled <*>
+hibernate _ page _ list _ setall found page count <*>
+hibernate_page_list_setall time: <*> ms
+hibernate_page_list_setall(preflight <*>) start
+hibernate_rebuild completed - took <*> msecs
+hibernate_rebuild started
+hibernate_rebuild_pmap_structs done: last_valid_compact_indx <*>
+hibernate_setup(<*>) took <*> ms
+hibernate_teardown completed - discarded <*>
+hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*>
+hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>
+host connection <nsxpc connection: <*> connection from pid <*> invalidated
+host controller terminated
+host controller online -  number of  paired devices = <*>,  list of  paired devices = ( "<*>-<*>-<*>-<*>-<*>-<*>" )
+init --  host controller is published
+internal name did not resolve to internal address!
+invalidating watch set.
+io hibernate poller open(<*>)
+iop mroot domain: idle cancel, state <*>
+io polled file pollers open(<*>) <*> ms
+<*>(<*>)::listener callback -  thunderbolt hpd packet for route = <*> port = <*> unplug = <*>
+jemmytest
+kern_open_file_for_direct_io took <*> ms
+kern_open_file_for_direct_io(<*>)
+keychain get icdp status: keychain: <*>
+keychain get icdp status: status: off
+location icon should now be in state ' active'
+location icon should now be in state ' inactive'
+m dns _ deregister interface:  frequent transitions for interface awdl 0 (<*>)
+m dns _ deregister interface:  frequent transitions for interface en 0 (<*>)
+m dns _ register interface:  frequent transitions for interface awdl 0 (<*>)
+m dns _ register interface:  frequent transitions for interface en 0 (<*>)
+network changed: <*>(<*>!:<*>) dns+  proxy+ smb
+network changed: <*>(<*>) dns-  proxy-
+network changed: <*>(<*>:<*>) <*>(<*>) dns  proxy smb
+network changed: <*>(<*>:<*>) <*>(<*>) dns!  proxy smb
+network changed: dns*
+network changed: dns*  proxy
+network: no response from server, reachability, <*>, query retries, <*>
+network: requery, <*>, <*>, <*>, <*>, <*>, items, f query retries, <*>, f last retry timestamp, <*>
+network_reachability_changed : network is not reachable, netbiosd is shutting down
+no application identifier provided, can't use provisioning profiles [pid=<*>]
+no sleep images for  will power off with images
+nsurlsession/nsurlconnection http load failed (kcfstreamerrordomainssl, <*>)
+<*> successfully changed nat 64 ifstate from <*> to <*>
+nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [<*>] libnetcore-<*> <*> libsystem_network.dylib <*> __nw_create_backtrace_string + <*> <*> libsystem_network.dylib <*> nw_path_evaluator_start_helper_connection + <*> <*> libdispatch.dylib <*> _dispatch_call_block_and_release + <*> <*> libdispatch.dylib <*> _dispatch_client_callout + <*> <*> libdispatch.dylib <*> _dispatch_queue_drain + <*> <*> libdispatch.dylib <*> _dispatch_queue_invoke + <*> <*> libdispatch.dylib <*> _dispatch_root_queue_drain + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libsystem_pthread.dylib <*> _pthread_wqthread + <*> <*> libsystem_pthread.dylib <*> start_wqthread + <*>
+objc[<*>]:  class tsu atomic lru cache is implemented in both <*> and <*>  one of the two will be used.  which one is undefined.
+objc[<*>]:  class tsu custom format data is implemented in both <*> and <*>  one of the two will be used.  which one is undefined.
+opened file <*>, size <*>, extents <*>, maxio <*> ssd <*>
+page bounds {{<*>, <*>}
+{<*>, <*>}}
+pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*>
+path not allowed in target domain: type = pid, path = <*> error = <*>:  the specified service did not ship in the requestor's bundle, origin = <*>
+payload  data <*> <*>
+pb requester failed with  error  error  domain=nsurl error domain  code=<*> " the  internet connection appears to be offline."  user info={ns underlying error=<*> { error  domain=k cf error domain cf network  code=<*> " the  internet connection appears to be offline."  user info={ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error code key=<*>,  _ k cf stream error domain key=<*>, ns localized description= the  internet connection appears to be offline.}}, ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error domain key=<*>,  _ k cf stream error code key=<*>, ns localized description= the  internet connection appears to be offline.}
+pb requester failed with  error  error  domain=nsurl error domain  code=<*> " the request timed out."  user info={ns underlying error=<*> { error  domain=k cf error domain cf network  code=<*> " the request timed out."  user info={ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error code key=<*>,  _ k cf stream error domain key=<*>, ns localized description= the request timed out.}}, ns error failing url string key=<*>, ns error failing url key=<*>,  _ k cf stream error domain key=<*>,  _ k cf stream error code key=<*>, ns localized description= the request timed out.}
+peripheral manager is not powered on
+pm response took <*> ms (<*>, powerd)
+pm response took <*> ms (<*>, qq)
+pm response took <*> ms (<*>,  we chat)
+pm stats:  hibernate read took <*> ms
+polled file major <*>, minor <*>, blocksize <*>, pollers <*>
+previous sleep cause: <*>
+received  capture  event
+rtc:  maintenance <*>/<*>/<*> <*>:<*>:<*>, sleep <*>/<*>/<*> <*>:<*>:<*>
+rtc:  power by calendar date setting ignored
+sandbox: <*>(<*>) deny(<*>) file-read-data <*>
+sandbox: <*>(<*>) deny(<*>) ipc-posix-shm-read-data cfpbs:<*>:
+sandbox: <*>(<*>) deny(<*>) mach-lookup <*>
+sandbox: <*>(<*>) deny(<*>) network-outbound <*>
+saw change in network reachability (is reachable=<*>)
+schedule invalidation <dy transport <*>, error: lost transport connection (<*>)>
+sec os status with error:[<*>]  error  domain=nsos status error domain  code=<*> "query missing class name" (param err: error in user parameter list)  user info={ns description=query missing class name}
+securityd _ xpc _ dictionary _ handler cloudd[<*>] copy _ matching  error  domain=nsos status error domain  code=<*> "query missing class name" (param err: error in user parameter list)  user info={ns description=query missing class name}
+send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.
+service "com.apple.xpc.launchd.unmanaged.loginwindow.<*>" tried to hijack endpoint "com.apple.tsm.uiserver" from owner: com.apple. system ui server.agent
+service exited with abnormal code: <*>
+session <*> created
+session <*> destroyed
+setting bt coex  config: <*>:<*>, <*>:<*>, <*>:<*>, <*>:<*>
+setting hostname to "<*>"
+sigio_handler: sigio_handler_active != <*>
+sos account this device can sync with circle sync with device failure:  error  domain=com.apple.security.sos.error  code=<*> " account identity not set"  user info={ns description= account identity not set}
+tbt w (<*>): <*> [x]
+tcp _ connection _ destination _ handle _ tls _ close _ notify <*> closing socket due to tls close _ notify alert
+tcp _ connection _ destination _ perform _ socket _ connect <*> connectx to <*>:<*>@<*> failed: [<*>]  network is down
+tcp _ connection _ destination _ perform _ socket _ connect <*> connectx to <*>:<*>@<*> failed: [<*>]  network is unreachable
+tcp _ connection _ handle _ connect _ conditions _ bad <*> failed: <*> -  no network route
+tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.<*> error <*>
+tcp_connection_tls_session_error_callback_imp <*> tcp_connection_tls_session_handle_read_error.<*> error <*>
+telling csi to go low power.
+the url = <*>
+thermal pressure state: <*>  memory pressure state: <*>
+unable to simultaneously satisfy constraints: ( "<ns autoresizing mask layout constraint:<*> h=-&- v=-&- v:[ns scroll view:<*>]-(<*>)-| ( names: '|':ns view:<*> )>", "<ns autoresizing mask layout constraint:<*> h=-&- v=-&- v:|-(<*>)-[ns scroll view:<*>] ( names: '|':ns view:<*> )>", "<ns autoresizing mask layout constraint:<*> h=-&- v=--& v:[ns view:<*>(<*>)]>", "<ns autoresizing mask layout constraint:<*> h=-&- v=-&- v:|-(<*>)-[ns view:<*>] ( names: '|':ns view:<*> )>", "<ns autoresizing mask layout constraint:<*> h=-&- v=-&- v:[ns view:<*>]-(<*>)-| ( names: '|':ns view:<*> )>" )  will attempt to recover by breaking constraint <ns autoresizing mask layout constraint:<*> h=-&- v=-&- v:|-(<*>)-[ns scroll view:<*>] ( names: '|':ns view:<*> )>  set the ns user default ns constraint based layout visualize mutually exclusive constraints to yes to have -[ns window visualize constraints:] automatically called when this happens.  and/or, break on objc _ exception _ throw to catch this in the debugger.
+unable to simultaneously satisfy constraints: ( "<ns layout constraint:<*> h:[ns image view:<*>(<*>)]>", "<ns layout constraint:<*> h:|-(<*>)-[ns image view:<*>] ( names:  page item cell:<*>, '|': page item cell:<*> )>", "<ns layout constraint:<*> 'ns view- encapsulated- layout- width' h:[ page item cell(<*>)] ( names:  page item cell:<*> )>", "<ns layout constraint:<*> h:[ns image view:<*>]-(<*>)-[ns text field:<*>]>", "<ns layout constraint:<*> h:[ns text field:<*>]-(<*>)-| ( names:  page item cell:<*>, '|': page item cell:<*> )>", "<ns layout constraint:<*> h:[ns text field:<*>]-(>=ns space(<*>))-[ns text field:<*>]>" )  will attempt to recover by breaking constraint <ns layout constraint:<*> h:[ns image view:<*>(<*>)]>  set the ns user default ns constraint based layout visualize mutually exclusive constraints to yes to have -[ns window visualize constraints:] automatically called when this happens.  and/or, break on objc _ exception _ throw to catch this in the debugger.
+unable to start  net bios name service:
+unexpected payload found for message <*>, data len <*>
+unrecognized attribute value: t: abch person item type
+unrecognized xs simple type definition:  one off
+url host = <*>
+usbmsc  identifier (non-unique): <*>
+vdcassistant: found a camera (<*>) , but was not able to start it up (<*> -- (os/kern) successful)
+vm_compressor_fastwake_warmup (<*> - <*>) - starting
+vm_compressor_fastwake_warmup completed - took <*> msecs
+wake reason: ?
+wake reason: arpt ( network)
+wake reason: ec. sleep timer ( sleep timer)
+wake reason: rtc ( alarm)
+wake time set <*> s
+warning: hibernate _ page _ list _ setall skipped <*> xpmapped pages
+warning:  type 1 font data isn't in the correct format required by the  adobe  type <*>  font  format specification.
+active
+ambient=<*>
+blocked
+boot (command <*>)
+boot (command <*>)  error: halt asserted \ cannot continue
+boot genvmunix (command <*>)
+closing
+cluster add member (command <*>)
+cluster file system:  server file system domain <*> is no longer served by node node-<*>
+cluster file system:  there is no server for  server file system domain <*>
+command has been aborted
+command has completed successfully
+component  state  change:  component <*> is in the unavailable state (hwid=<*>)
+configured out
+critical
+failed subcommands <*>
+fan speeds ( <*> <*> <*> **** <*> <*> )
+fan speeds ( <*> <*> <*> <*> <*> <*> )
+halt (command <*>)
+inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>
+link error
+link error on broadcast tree  interconnect-<*>
+link errors remain current
+link in reset
+link ok
+linkerror event interval expired
+niff: node node-<*> detected a failed network connection on network <*> via interface alt 0
+niff: node node-<*> has detected an available network connection on network <*> via interface alt 0
+niff: node node-<*> has detected an available network connection on network <*> via interface ee 0
+niff: node node-<*> has detected an available network connection on network <*> via interface scip 0
+normal
+not responding
+not-responding
+power/control problem
+psu failure\ ambient=<*>
+ris boot (command <*>)
+ris boot (command <*>)  error:  timed out while waiting for srm prompt: <abort code completed>
+running
+server file system:  an  server file system domain panic has occurred on <*>
+server file system:  server file system domain <*> is full
+starting
+targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+targeting domains:node-<*> nodes:node-<*>
+temperature (<*>) exceeds warning threshold
+wait (command <*>)
+warning
