@@ -1,5 +1,5 @@
 Here we used the  parsed BGL files, which are ``BGL_ALL.txt_structured.csv`` and ``BGL_ALL.txt_templates.csv``, the format of these files like the files at ``logpai``, link: https://github.com/logpai/loghub/tree/master/BGL.
-After these files are ready, run these script to generate dataset for training and testing.
+After these files are ready, please run these script to generate dataset for training and testing.
 ```
 cd {project}/model
 python utils/generate_BGL_seq.py
