@@ -1,4 +1,3 @@
-# todo : 用全部数据集的模板来预训练
 
 # export CUDA_VISIBLE_DEVICES=1
 # export HF_DATASETS_OFFLINE=1
@@ -43,7 +42,7 @@ class CustomCallback(TrainerCallback):
 
 
 def MLMFinetune():
-    # 构造MLM任务数据集
+    # generate MLM datasets
     def tokenize_function(examples):
         result = bert_tokenizer(examples["text"])
         if bert_tokenizer.is_fast:
@@ -63,12 +62,8 @@ def MLMFinetune():
 
     data_collator = DataCollatorForLanguageModeling(tokenizer=bert_tokenizer, mlm_probability=0.15)
 
-    # # 查看mask效果
-    # samples = [tokenized_datasets["train"][i] for i in range(2)]
-    # for chunk in data_collator(samples)["input_ids"]:
-    #     print(f"\n'>>> {bert_tokenizer.decode(chunk)}'")
 
-    # 划分数据集
+    # train & test
     train_size = 0.9
     test_size = 0.1
 
@@ -76,8 +71,6 @@ def MLMFinetune():
         train_size=train_size, test_size=test_size, seed=42
     )
     print(downsampled_dataset)
-
-    # 训练
 
     batch_size = 8
     logging_steps = len(downsampled_dataset["train"]) // batch_size
