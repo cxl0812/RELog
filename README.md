@@ -48,6 +48,7 @@ After the origin dataset is ready, please run the following script to complete t
 cd model
 python utils/generate_BGL_seq.py
 python utils/generate_HDFS_seq.py
+python utils/generate_finetune_data.py
 ```
 After these script, the datasets used in different experiments will be generated in directory data/BGL and data/HDFS.
 
