@@ -48,7 +48,7 @@ After the origin dataset is ready, please run the following script to complete t
 cd model
 python utils/generate_BGL_seq.py
 python utils/generate_HDFS_seq.py
-python utils/generate_finetune_data.py
+# python utils/generate_finetune_data.py   # this script is used to generate `log_templates_new.csv` and `finetune_input.txt`, which are concatenated from the templates on  `loghub`. They have been generated and included in the data directory. There is no need to run it again.
 ```
 After these script, the datasets used in different experiments will be generated in directory data/BGL and data/HDFS.
 
