@@ -1,47 +1,50 @@
-from transformers import BertTokenizer, BertConfig, AutoModel, BertModel, AutoModelForMaskedLM
+# from transformers import BertTokenizer, BertConfig, AutoModel, BertModel, AlbertTokenizer, AlbertConfig, AlbertModel, AutoTokenizer, AutoConfig, AutoModelForMaskedLM
+from transformers import AutoTokenizer, AutoConfig, AutoModel
 import torch
 from torch import nn
 import pickle
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class LogEncoder(nn.Module):
-    def __init__(self, 
+    def __init__(self,
                  ):
         super().__init__()
         self.d_model = 768
+        self.max_len = 512
         # this model is pretrained on all dataset, it is just in HDFS directory
-        self.path = 'save_model/HDFS' 
-        self.bert_tokenizer:BertTokenizer = BertTokenizer.from_pretrained(self.path, local_files_only=True)
-        self.bert_config = BertConfig.from_pretrained(self.path, local_files_only=True)
-        self.bert:AutoModel = AutoModel.from_pretrained(self.path, 
-                                                        # config=self.bert_config, 
+        self.model_path = 'save_model/HDFS' 
+        # self.model_path: str = '../albert-base-v2'
+        # self.model_path: str = '../bert-uncased'
+        self.tokenizer:AutoTokenizer = AutoTokenizer.from_pretrained(self.model_path, local_files_only=True)
+        self.config = AutoConfig.from_pretrained(self.model_path, local_files_only=True)
+        self.model:AutoModel = AutoModel.from_pretrained(self.model_path, 
+                                                        config=self.config, 
                                                         local_files_only=True,
                                                         # return_dict=True
                                                         ).to(device)
-        for param in self.bert.parameters():
+        for param in self.model.parameters():
             param.requires_grad = False
         self.template_embedding = {}
 
 
-    def forward(self, batch_text_list):
-        bert_outputs = []
+    def forward(self, batch_text_list: list) -> torch.Tensor:
+        all_outputs = []
         for text_list in batch_text_list:
-            temp_bert_outputs_list = []
+            seq_outputs = []
             for t in text_list:
                 if t in self.template_embedding:
                     te = self.template_embedding[t].to(device)
                 else:
                     # print("uncached: ", t)
-                    inputs = self.bert_tokenizer(t, return_tensors="pt", padding=True)
-                    inputs = inputs.to(device)
-                    te = self.bert(**inputs)['last_hidden_state']# [:, 0, :]
+                    inputs = self.tokenizer(t, return_tensors="pt", padding=True, max_length=self.max_len, truncation=True)
+                    inputs = {k: v.to(device) for k, v in inputs.items()}
+                    te = self.model(**inputs)['last_hidden_state']# [:, 0, :]
                     te = torch.mean(te, dim=1)
                     self.template_embedding[t] = te.clone().detach().cpu()
-                temp_bert_outputs_list.append(te)
+                seq_outputs.append(te)
             # print(temp_bert_outputs_list)
-            temp_bert_outputs = torch.concat(temp_bert_outputs_list, dim=0)
-            bert_outputs.append(temp_bert_outputs.unsqueeze(0))
-        bert_outputs = torch.concat(bert_outputs, dim=0)
+            seq_tensor = torch.concat(seq_outputs, dim=0).unsqueeze(0)
+            all_outputs.append(seq_tensor)
 
-        return bert_outputs
+        return torch.concat(all_outputs, dim=0)
         
